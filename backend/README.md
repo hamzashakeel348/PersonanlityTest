@@ -19,6 +19,7 @@ The backend service provides RESTful API endpoints for managing questions, user 
 - Node.js
 - Express.js
 - CORS
+- Jest
 
 ### Folder Structure
 
@@ -27,3 +28,5 @@ The backend service provides RESTful API endpoints for managing questions, user 
   - `models`: Models for the data.
   - `routes`: API route definitions.
 - `.env`: Configure environment variables(e.g, PORT=8000, etc.)
+- `tests`: Unit and integration tests.
+
